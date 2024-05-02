@@ -3,7 +3,7 @@ from typing import List
 
 
 class InfoModel(BaseModel):
-    colors: str
+    colors: List[str]
     range: int
 
 

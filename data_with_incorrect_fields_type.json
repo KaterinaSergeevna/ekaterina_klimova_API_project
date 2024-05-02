@@ -1,0 +1,20 @@
+[
+    {
+        "text": 123,
+        "url": "http://tratatata",
+        "tags": ["lala", "just for fun"],
+        "info": {"colors": ["blue"], "range": 9}
+    },
+    {
+        "text": "example for test",
+        "url": 123,
+        "tags": ["lala", "just for fun"],
+        "info": {"colors": ["blue"], "range": 9}
+    },
+    {
+        "text": "example for test",
+        "url": "http://tratatata",
+        "tags": 123,
+        "info": {"colors": ["blue"], "range": 9}
+    }
+]

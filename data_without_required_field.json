@@ -1,0 +1,43 @@
+[
+  {
+    "url": "http://tratatata",
+    "tags": [
+      "lala",
+      "just for fun"
+    ],
+    "info": {
+      "colors": [
+        "blue"
+      ],
+      "range": 9
+    }
+  },
+  {
+    "text": "example for test",
+    "tags": [
+      "lala",
+      "just for fun"
+    ],
+    "info": {
+      "colors": [
+        "blue"
+      ],
+      "range": 9
+    }
+  },
+  {
+    "text": "example for test",
+    "url": "http://tratatata",
+    "info": {
+      "colors": [
+        "blue"
+      ],
+      "range": 9
+    }
+  },
+  {
+    "text": "example for test",
+    "url": "http://tratatata",
+    "tags": 123
+  }
+]

@@ -13,7 +13,3 @@ class BaseTest:
         self.delete_ends = DeleteObject()
         self.put_ends = PutObject()
         self.token = self.post_ends.take_token()
-
-    def check_token(self):
-        if not self.get_ends.check_token_is_valid(self.token):
-            self.token = self.post_ends.take_token()
