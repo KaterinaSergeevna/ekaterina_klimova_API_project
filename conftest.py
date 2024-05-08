@@ -49,13 +49,13 @@ def delete_object():
 
 @pytest.fixture
 def data_list():
-    with open("data_with_incorrect_fields_type.json") as f:
+    with open("test_data/data_with_incorrect_fields_type.json") as f:
         data = json.load(f)
     return data
 
 
 @pytest.fixture
 def data_without_required_field_list():
-    with open("data_without_required_field.json") as f:
+    with open("test_data/data_without_required_field.json") as f:
         data = json.load(f)
     return data

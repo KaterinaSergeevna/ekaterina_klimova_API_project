@@ -9,3 +9,4 @@ allure-results
 allure-report
 *.log
 .gitignore
+cread.txt
