@@ -22,7 +22,7 @@ class GetObject(BaseEndpoint):
             self.response = self.response.json()
             self.response_date = DataModel(**self.response)
 
-    @allure.step('Check that token is still valid')
+    @allure.step('Check that data is equal')
     def check_that_request_data_is_equal_response_data(self, data):
         assert self.response_date.text == data['text']
         assert self.response_date.url == data['url']
